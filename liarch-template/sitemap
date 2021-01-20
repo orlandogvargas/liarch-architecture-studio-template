@@ -3,7 +3,6 @@ assets
     media
 
 components
-    header
     nav
         home
         what we do
@@ -13,6 +12,11 @@ components
         contact
 
     footer
+
+
+
+
+
 
     home
         intro
