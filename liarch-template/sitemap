@@ -1,0 +1,54 @@
+assets
+    css
+    media
+
+components
+    header
+    nav
+        home
+        what we do
+        works
+        about
+        news
+        contact
+
+    footer
+
+    home
+        intro
+        experience
+        solutions
+        latest-projects
+        experiencies
+        partners
+        articles
+        contact
+    
+    works
+        intro
+        gallery
+
+    WORK-DETAILS
+        intro
+            project-details
+            full-image
+            quote
+        challenge
+            quote-tweet
+        solution
+            gallery
+        contact
+    
+    contact
+        intro / contact info
+        google maps 
+        contact form
+
+
+    news
+        header & categories
+        slider
+        join our list
+        grid of posts
+        
+    404

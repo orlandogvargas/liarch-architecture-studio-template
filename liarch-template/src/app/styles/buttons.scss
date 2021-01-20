@@ -1,0 +1,26 @@
+@import './app/styles/colors.scss';
+@import './app/styles/fonts.scss';
+
+
+button{
+    font: {
+        family: $titles-font;
+        weight: $bold;
+    }
+    color: $white;
+    background-color: $orange;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 40px;
+
+    a{
+        text-decoration: solid;
+        color: $white;
+    }
+}
+
+button:hover{
+    border: solid 2px $orange;
+    background-color: $white;
+    color: $orange;
+}

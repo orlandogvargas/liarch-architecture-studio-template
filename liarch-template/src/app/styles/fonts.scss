@@ -1,0 +1,49 @@
+@import './app/styles/colors.scss'; 
+
+/* ------ FONTS ------ */
+
+$titles-font: "Montserrat', sans-serif;";
+$body-font: "'Roboto', sans-serif;";
+
+/* weights */
+
+$bold: 700;
+$medium: 600;
+$regular: 500;
+$light: 300;
+
+/* sizes */
+
+$h1-title: 40px;
+$h2-title: 32px;
+$h3-title: 25px;
+$h4-title: 20px;
+$h5-title: 16px;
+$h6-title: 12px;
+
+
+body {
+    background-color: $white;
+    font: {
+        family: $body-font;
+        size: 16px;
+        weight: $regular;
+    }
+    color: $black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font: {
+        family: $titles-font;
+        weight: $bold;
+    }
+    color: $black;
+
+    h1 { font-size: $h1-title;};
+    h2 { font-size: $h2-title;};
+    h3 { font-size: $h3-title;};
+    h4 { font-size: $h4-title;};
+    h5 { font-size: $h5-title;};
+    h6 { font-size: $h6-title;};
+
+}
