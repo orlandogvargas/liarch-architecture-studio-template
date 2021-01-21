@@ -1,0 +1,54 @@
+@import "../../../styles.scss";
+
+
+footer{
+    font-family: $title-font;
+}
+
+.email-footer{
+    color: $orange;
+}
+
+.p-footer{
+    font: {
+            weight: 700;
+        size: 18px;
+    }
+    color: $grey;
+}
+
+hr{
+    margin: 50px 0px;
+}
+
+ul{
+    padding: 0;
+
+    h3{
+        font-weight: 500;
+        color: $black;
+        padding-bottom: 25px;
+
+    }
+
+    li{
+        list-style: none;
+        font-weight: 400;
+        color: $grey;
+    }
+}
+
+.link-footer{
+    text-decoration: none;
+    color: $grey;
+}
+
+.link-footer:hover{
+    color: $orange;
+    font-weight: 700;
+}
+
+.faqs{
+    color: $orange;
+    font-weight: 700;
+}
