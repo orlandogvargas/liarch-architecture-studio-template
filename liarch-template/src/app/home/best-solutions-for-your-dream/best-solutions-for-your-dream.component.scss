@@ -1,0 +1,27 @@
+@import "../../../styles.scss";
+
+.best-intro{
+    color: $grey;
+}
+
+.solutions{
+    margin-top: 70px;
+}
+
+.solutions-details {
+    margin: 50px 0px;
+}
+
+.solutions-h3{
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.solutions-p{
+    color: $grey;
+}
+
+.solutions-quantity{
+    font-size: 12px;
+    color: $orange;
+}

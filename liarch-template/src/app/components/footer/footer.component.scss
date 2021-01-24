@@ -1,54 +1,37 @@
 @import "../../../styles.scss";
 
-
 footer{
-    font-family: $title-font;
-}
+    background-color: $light;
+    padding: 25px 0px;
 
-.email-footer{
-    color: $orange;
-}
-
-.p-footer{
-    font: {
-            weight: 700;
-        size: 18px;
-    }
-    color: $grey;
-}
-
-hr{
-    margin: 50px 0px;
-}
-
-ul{
-    padding: 0;
-
-    h3{
-        font-weight: 500;
-        color: $black;
-        padding-bottom: 25px;
-
+    .email-footer{
+        color: $orange;
     }
 
-    li{
-        list-style: none;
-        font-weight: 400;
+    .p-footer{
         color: $grey;
     }
+
+    ul{
+        li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: $orange;
+            }
+        }
+    }
+
+    .footer-h3{
+        font-weight: 700;
+    }
+
+    .right{
+        margin-top: 100px;
+    }
 }
 
-.link-footer{
-    text-decoration: none;
-    color: $grey;
-}
-
-.link-footer:hover{
-    color: $orange;
-    font-weight: 700;
-}
-
-.faqs{
-    color: $orange;
-    font-weight: 700;
-}

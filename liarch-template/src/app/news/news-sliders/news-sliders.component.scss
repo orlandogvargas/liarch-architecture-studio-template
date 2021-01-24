@@ -1,0 +1,15 @@
+@import '../../../styles.scss';
+
+.slider-news{
+    background: {
+        image: url('.././../../assets/media/news/news-post.png');
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }
+
+    .post-slider{
+        color: $white;
+        padding: 300px 0px 50px 0px;
+    }
+}

@@ -1,0 +1,27 @@
+@import "../../../styles.scss";
+
+.our-approach{
+    background-color: $pink;
+    padding: 100px 0px;
+}
+
+.our-approach-details{
+    background-color: $white;
+    padding: 50px;
+    height: 320px;
+
+    .our-approach-details-h1{
+        font: {
+            size: 26px;
+            weight: 500;
+        }
+        line-height: 30px;
+    }
+
+    .our-approach-details-p {
+        font: {
+            size: 16px;
+            color: $grey;
+        }
+    }
+}

@@ -20,6 +20,22 @@ import { PartnersComponent } from './home/partners/partners.component';
 import { InspirarionsAndExperiencesComponent } from './home/inspirarions-and-experiences/inspirarions-and-experiences.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { WeHelpBuildingComponent } from './what-we-do/we-help-building/we-help-building.component';
+import { SimplicityComponent } from './what-we-do/simplicity/simplicity.component';
+import { OurClientsComponent } from './what-we-do/our-clients/our-clients.component';
+import { OurApproachComponent } from './what-we-do/our-approach/our-approach.component';
+import { GalleryComponent } from './works/gallery/gallery.component';
+import { IntroWorkDetailsComponent } from './works/work-details/intro-work-details/intro-work-details.component';
+import { IntroComponent } from './works/intro/intro.component';
+import { WorkDetailsChallengeComponent } from './works/work-details/work-details-challenge/work-details-challenge.component';
+import { WorkDetailsSolutionComponent } from './works/work-details/work-details-solution/work-details-solution.component';
+import { NewsSlidersComponent } from './news/news-sliders/news-sliders.component';
+import { JoinOurListComponent } from './news/join-our-list/join-our-list.component';
+import { NewsPostsComponent } from './news/news-posts/news-posts.component';
+import { NewsPostDetailsComponent } from './news/news-post-details/news-post-details.component';
+import { NewsHeaderComponent } from './news/news-header/news-header.component';
+import { NewsAuthorComponent } from './news/news-author/news-author.component';
+import { TestimonialsComponent } from './what-we-do/testimonials/testimonials.component';
 
 
 @NgModule({
@@ -42,6 +58,22 @@ import { FooterComponent } from './components/footer/footer.component';
     InspirarionsAndExperiencesComponent,
     NavbarComponent,
     FooterComponent,
+    WeHelpBuildingComponent,
+    SimplicityComponent,
+    OurClientsComponent,
+    IntroComponent,
+    OurApproachComponent,
+    GalleryComponent,
+    IntroWorkDetailsComponent,
+    WorkDetailsChallengeComponent,
+    WorkDetailsSolutionComponent,
+    NewsSlidersComponent,
+    JoinOurListComponent,
+    NewsPostsComponent,
+    NewsPostDetailsComponent,
+    NewsHeaderComponent,
+    NewsAuthorComponent,
+    TestimonialsComponent,
 
   ],
   imports: [

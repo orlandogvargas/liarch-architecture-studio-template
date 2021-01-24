@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "left"
 }

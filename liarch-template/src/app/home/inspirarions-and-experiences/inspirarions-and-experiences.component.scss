@@ -1,0 +1,30 @@
+@import "../../../styles.scss";
+
+.inspiration-post{
+    border: solid 1px $grey-light;
+    padding: 40px;
+
+    .inspiration-h4{
+        color: $black;
+        font: {
+            size: 20px;
+            weight: 700;
+            
+        }
+        line-height: 25px;
+        padding: 10px 0px;
+    }
+}
+
+.inspiration-continue{
+    color: $black;
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: $orange;
+    }
+
+}

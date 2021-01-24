@@ -1,0 +1,23 @@
+@import "../../../styles.scss";
+
+
+@media only screen and (max-width: 991px) {
+    .newsletter-section {
+        margin: 100px 0px;
+    }
+}
+
+.newsletter{
+    
+    display: inline-flex;
+    border-bottom: 1px solid $black;
+
+    .newsletter-icon {
+        padding-top: 5px
+    }
+
+    input {
+        border: 0px;
+        border-radius: 0px;
+    }
+}

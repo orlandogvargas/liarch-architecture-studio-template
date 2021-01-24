@@ -10,15 +10,13 @@
                     than you expect
                 </h1>
 
-                <p>
-                    <i>
-                        Over 25 years Liarch helping investors<br>
-                        building their dream & business goals go to<br>
-                        the perfection
-                    </i>
+                <p class="quotes">
+                    Over 25 years Liarch helping investors<br>
+                    building their dream & business goals go to<br>
+                    the perfection
                 </p>
 
-                <p>
+                <p class="over-the-years">
                     Over the years, we have worked with Fortune<br>
                     500s and brand-new startups. We help ambitious<br>
                     businesses like yours generate more profits by<br>
@@ -28,14 +26,24 @@
                 </p>
                 
                 <div class="row">
-                    <div class="col-3">
-                        <button>LEARN MORE</button>
-                    </div   >
-                    <div class="col-3">
-                        <p>
-                            VIEW OUR <br>
-                            HISTORY
-                        </p>
+                    <div class="col-4 d-flex align-items-center">
+                        <button type="button " class="orange-buttons"><a class="learn-more" [routerLink]="['/']" routerLinkActive="router-link-active"><small>LEARN MORE</small></a> </button>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-3 ">
+                                <div class="play-button">
+                                    <img class="img-fluid" src="../../assets/media/home/play.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6  d-flex align-items-center">
+                                <div class="our-history">
+                                    VIEW OUR
+                                    <br>
+                                    HISTORY
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

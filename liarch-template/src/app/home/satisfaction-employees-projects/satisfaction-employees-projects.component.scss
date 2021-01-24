@@ -1,0 +1,15 @@
+@import "../../../styles.scss";
+
+.satisfaction-h1{
+    font-size: 40px;
+}
+
+.satisfaction-h6{
+    color: $grey;
+    font: {
+        weight: 600;
+        size: 12px;
+    }
+    padding-top: 35px;
+    line-height: 14px;
+}

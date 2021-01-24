@@ -1,61 +1,62 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
-section{
-    margin: 0px;
-}
 
-@media only screen and (min-width: 992px){
-    .menu{
-        margin-left: 100px;
-    }
-}
+/* STYLE NAVBAR */
 
-@media only screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
     .circle-menu{
         display: none;
     }
 }
 
-.navbar-light, .navbar-toggler {
-    border: none;
+.navbar-light{
+    color: $black;
+}
 
-  }
+.navbar {
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("https://www.flaticon.com/svg/vstatic/svg/660/660376.svg?token=exp=1611197645~hmac=a6a899184644dafd434d4feac275d861");
-    color: white;
-    border-color: white;
-  }
+    /* STYLE NAV-ITEMS <li></li> */
+    .navbar-light, .navbar-nav, .nav-link, .nav-item{
+        font-size: 14px;
+        color: $black; 
 
-ul{
-    li{
         a{
-            font: {
-            size: 13px;
-            weight: 800;
-            family: $title-font;
+            font-weight: 500;
+            
         }
+
+        a:hover{
+            color: $orange;
+            font-weight: 500;
+        }
+    }
+
+    /* COLOR ACTIVES ROUTER LINKS MENU */
+    .home, .what-we-do, .works, .news, .contact{
+        color: $orange;
+    }
+
+    /* LET'S CHAT! */
+    .lets-chat{
         color: $black;
+        
+
+        a {
+            text-decoration: none;
+            color: $black;
         }
 
         a:hover{
             color: $orange;
         }
-
-        a:active{
-            color: $orange;
-        }
-
     }
 
-    .home, .what-we-do, .works, .about, .news, .contact{
-        font-weight: 800;
-        color: $orange !important;
+    /* HR NAVBAR */
+
+
+    hr.navHr{
+       border: 1px solid $black;
+       margin: 0px;
+       padding: 0px;
     }
 }
-
-.lets-chat{
-    font-size: 12px;
-    text-decoration: underline;
-}
-

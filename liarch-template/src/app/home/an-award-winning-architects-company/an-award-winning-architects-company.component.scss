@@ -1,33 +1,60 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
-.intro {
-    font-family: $title-font;
-    color: $grey;
-    padding: 20px 0px;
-}
-
-.orange-buttons{
-    margin: 20px 0px 50px 0px;
-}
-
-.hurry{
-    font: {
-        family: $title-font;
-        size: 14px;
-        weight: 700;
-        color: $black;
+@media only screen and (max-width: 991px){
+    .img-an-awards{
+        display: none;
     }
 }
 
-.circle-phone{
-    background-color: $grey-light;
-    padding: 10px;
-    border-radius: 50px;
-    width: 50px;
-    text-align: center;
-    margin: 10px 0px;
+.h1-home{
+    font: {
+        size: 40px;
+        weight: lighter;
+    }
+    line-height: 55px;
 }
 
-.phone-icon{
-    color: $orange;
+.p-home{
+    margin-top: 30px;   
+    color: $grey;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+.small-texts {
+    font: {
+        size: 13px;
+        weight: bold;
+    }
+}
+
+.hotline{
+    margin-top: 30px;
+
+    .circle-phone{
+        background-color: $orange-light;
+        border-radius: 50px;
+        padding: 8px 10px;
+        color: $orange;
+        text-align: center;
+    }
+
+    .hotline-title{
+        font: {
+            size: 10px;
+            color: $grey-light;
+            margin: 0px;
+            padding: 0px;
+    
+        }
+    }
+    
+    .hotline-phone{
+        margin: 0px;
+        padding: 0px;
+        line-height: 20px;
+        font-size: 16px;
+    }
 }
